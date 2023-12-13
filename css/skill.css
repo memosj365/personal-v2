@@ -1,0 +1,91 @@
+section#skill{
+
+  background-color: #fff;
+  height: 100vh;
+} 
+section#skill .wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  border-radius: 639px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-color: white;
+  background-color: #d9f1f9;
+  margin-top: 250px;
+  padding-right: 50px;
+}
+section#skill .wrap h2{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+section#skill .wrap h2::before{
+  margin-bottom: 20px;
+  width: 20px;
+  /*! content: ""; */
+}
+  margin-bottom: 20px;
+}
+section#skill .wrap p{
+
+}
+section#skill .wrap ul{
+  justify-content: center;
+  gap: 40px;
+  background-color: #d9f1f9;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+section#skill .wrap ul li{
+  width: 100px;
+  height: 100px;
+  /*! background-color: #ccc; */
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+  content: "";
+  display: block;
+}
+section#skill .wrap ul li::before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  /*! background-color: #ccc; */
+  /*! border-radius: 50%; */
+  display: block;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+section#skill .wrap ul li:nth-child(1)::before{
+background-image: url(../img/html.png);  
+}
+section#skill .wrap ul li:nth-child(2)::before{
+background-image: url(../img/css.png)  
+}
+section#skill .wrap ul li:nth-child(3)::before{
+background-image: url(../img/jquery.png)  
+}
+section#skill .wrap ul li:nth-child(4)::before{
+background-image: url(../img/js.png)  
+}
+section#skill .wrap ul li:nth-child(5)::before{
+background-image: url(../img/zencoding.png);  
+}
+section#skill .wrap ul li:nth-child(6)::before{
+background-image: url(../img/sass.png)  
+}
+section#skill .wrap ul li:nth-child(7)::before{
+background-image: url(../img/ps.png);  
+}
+section#skill .wrap ul li:nth-child(8)::before{
+background-image: url(../img/ai.png);  
+}
+
+
+

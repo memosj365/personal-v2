@@ -1,0 +1,73 @@
+section#portfolio{
+  background-color: #9badce;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100vh;
+  min-height: 1000px;
+} 
+section#portfolio .wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  border-radius: 319px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-color: white;
+  background-color: #bbcbe8;
+  margin-top: 50px;
+  padding-right: 50px;
+  transform: translateY(15%);
+}
+section#portfolio .wrap h2{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+section#portfolio .wrap p{
+  line-height: 2;
+}
+section#portfolio .wrap>ul{
+  
+}
+section#portfolio .wrap ul li{
+  
+  transform: translateX(7%);
+}
+section#portfolio .wrap ul li img{
+  
+  border-radius: 316px;
+  height: 355px;
+  width: 850px;
+}
+section#portfolio .wrap ul li div{
+  
+  /*! line-height: 1.6; */
+  margin-top: 112px;
+  margin-left: 65px;
+}
+section#portfolio .wrap ul li div h3{
+  
+}
+section#portfolio .wrap ul li div p{
+  
+}
+section#portfolio .wrap ul li div ul{
+  
+  display: flex;
+  gap: 23px;
+}
+section#portfolio .wrap ul li div ul li{
+   
+  display: flex;
+}
+section#portfolio .wrap ul li div span{
+  
+  gap: 36px;
+  display: flex;
+  padding-top: 16px;
+}
+
+
+
+

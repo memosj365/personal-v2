@@ -1,0 +1,73 @@
+section#contact{
+  background-color: #d5c4c4;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+section#contact .wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  border-radius: 667px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-color: white;
+  background-color: #c4a7a7;
+  margin-top: 50px;
+  padding-right: 50px;
+}
+section#contact .wrap h2{
+  display: flex;
+  justify-content: center;
+}
+section#contact .wrap ul{
+  display: block;
+  width: 200px;
+  height: 40px;
+  transform: translate(415%);
+  font-size: 19px;
+}
+section#contact .wrap ul li{
+  transform: translateX(70%);
+}
+section#contact .wrap p{
+  line-height: 2;
+}
+section#contact .wrap li{
+  list-style: none;
+}
+section#contact a.top{
+  width: 50px;
+  height: 100px;
+  display: block;
+  background-color: #753a1e;
+  color: white;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  z-index: 1;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+}
+section#contact a.top:hover{
+  color: navy;
+  transition: all 1s;
+}
+section#contact a.top::before{
+  content: "";
+  background-image: url(../img/aa.svg);
+  width: 24px;
+  height: 24px;
+  transition: all 1s;
+  display: block;
+}
+section#contact a.top:hover::before{
+  transform:translateY(-7px);
+}

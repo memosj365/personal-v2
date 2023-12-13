@@ -1,0 +1,76 @@
+/* 상단영역 */
+header{
+   width: 1440px; /* 너비지정   */
+   margin: 0 auto; /* 중앙정렬 */
+   background-color: white;
+   display: flex;
+   height: 60px;
+   justify-content: space-between;
+   align-items: center;
+   /*! position: absolute; */
+   width: 100%;
+ } 
+ header .wrap{
+   display: flex;
+   width: 1440px;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+ }
+ header .wrap h1{
+ }
+ header .wrap h1 a{
+   color: #bba3a3;
+   font-size: 34px;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   font-weight: bold;
+ }
+ header .wrap ul{
+   display: flex;
+   gap: 50px;
+   color: #bba3a3;
+ }
+ header .wrap ul li{
+ 
+ }
+ header .wrap ul li a{
+  color: #bba3a3;
+  padding: 15px 15px 15px 15px;
+ }
+ header div.wrap div.right{
+   display: flex;
+   gap: 11px;
+   /*! font-weight: bold; */
+   font-size: 20px;
+   align-items: center;
+ }
+ header div.wrap div.right ul{
+   font-size: 13px;
+ }
+ header div.wrap div.right ul.lang{
+ 
+ }
+ header div.wrap div.right ul.lang li{
+ 
+ }
+ header div.wrap div.right ul.lang li a{
+ 
+ }
+ header div.wrap div.right ul.lang li:nth-child(1) {
+  
+ }
+ header div.wrap div.right ul.lang li:nth-child(1) a {
+  margin-right: -38px;
+ }
+ header div.wrap div.right > a.ham {
+   background-image: url(../img/d1.svg);
+   font-size: 0;
+   width: 30px;
+   height: 30px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #bba3a3;
+ }
